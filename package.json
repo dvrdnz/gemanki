@@ -1,0 +1,52 @@
+{
+  "name": "gemanki",
+  "version": "1.0.2",
+  "description": "Generate Anki .apkg decks from Node.js (ESM)",
+  "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepack": "npm test"
+  },
+  "keywords": [
+    "anki",
+    "apkg",
+    "flashcards",
+    "gemanki",
+    "deck",
+    "generator",
+    "nodejs"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "dvrdnz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvrdnz/gemanki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dvrdnz/gemanki/issues"
+  },
+  "homepage": "https://github.com/dvrdnz/gemanki#readme",
+  "license": "MIT",
+  "dependencies": {
+    "big-integer": "^1.6.52",
+    "js-sha256": "^0.11.0",
+    "jszip": "^3.10.1",
+    "sql.js": "^1.11.0"
+  }
+}
