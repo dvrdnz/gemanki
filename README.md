@@ -1,3 +1,11 @@
+[![package](https://badgen.net/badge/package/gemanki/blue)](https://www.npmjs.com/package/gemanki)
+[![npm](https://badgen.net/npm/v/gemanki)](https://www.npmjs.com/package/gemanki)
+[![node](https://badgen.net/npm/node/gemanki)](https://nodejs.org)
+[![code size](https://img.shields.io/github/languages/code-size/dvrdnz/gemanki)](https://github.com/dvrdnz/gemanki)
+[![install size](https://badgen.net/packagephobia/install/gemanki)](https://packagephobia.com/result?p=gemanki)
+[![last commit](https://img.shields.io/github/last-commit/dvrdnz/gemanki)](https://github.com/dvrdnz/gemanki)
+
+
 # gemanki
 
 Create Anki `.apkg` decks from Node.js.
